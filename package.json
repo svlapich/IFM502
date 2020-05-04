@@ -1,0 +1,21 @@
+{
+  "name": "diploma_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node_modules/.bin/sequelize db:migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "net": "^1.0.2",
+    "nodemon": "^2.0.2",
+    "pg": "^7.12.1",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "cross-env": "^6.0.3"
+  }
+}
